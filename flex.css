@@ -1,0 +1,23 @@
+.parent{
+    background-color: antiquewhite;
+    padding: 25px;
+    display: flex;
+    gap: 30px;
+    /* justify content mane x okkho borabor center kore  */
+    justify-content:space-between;
+    /* align items center bolte y okkho borabor center kore */
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+}
+
+.child{
+    background-color: rgb(223, 212, 233);
+    padding: 10px;
+    border: 2px solid red;
+    margin-top: 10px;
+    font-size: 28px;
+    
+
+}
